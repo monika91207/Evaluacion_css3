@@ -1,0 +1,174 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+header{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	text-shadow:2px 2px #02010a;
+	display:flex;
+	flex-direction:row;
+}
+
+header a, header a:visited, header a:link{
+	color: white;
+}
+
+.titulo, .menu{
+	margin:auto;
+}
+
+.titulo{
+	margin: auto;
+}
+
+.menu{
+	margin: auto;
+}
+
+.selection{
+	text-decoration:none;
+}
+
+.contenido{
+	animation: animacion 1s;
+}
+
+.contenido{
+	text-align:center;
+	max-width:900px;
+	margin:0 auto;
+}
+
+.subrayado_actual{
+	text-decoration:none;
+}
+
+.retrato_arriba{
+	text-align:center;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.retrato_abajo{
+	text-align:center;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#Contenido_retratos{
+	background-color: #d5c75f;
+}
+
+#Contenido_retratos img{
+	width:100%;
+	border:1px solid black;
+	}
+
+#contenido > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+#Retrato1, #Retrato2, #Retrato3, #Retrato4, #Retrato5, #Retrato6{
+	padding:10px;
+}
+
+#Retrato1 img{
+		-webkit-filter:blur(10px);
+}
+
+#Retrato2 img{
+	-webkit-filter:grayscale(100%);
+}
+
+#Retrato3 img{
+	-webkit-filter:sepia(90%);
+}
+
+#Retrato4 img{
+	-webkit-filter:grayscale(100%);
+}
+
+#Retrato6 img{
+	-webkit-filter:grayscale(100%);
+}
+
+footer {
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+}
+
+.pie_pagina{
+	margin: 0 auto;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	color:black;
+	font-family: 'Dancing Script', cursive;
+	align-items: flex-start;
+	text-align:left;
+}
+
+#Contacto img{
+	height:15px;
+	border-radius:10px;
+}
+
+#Redes_Sociales img{
+	height:15px;
+	border-radius:10px;
+}
+
+#Derechos img{
+	height:15px;
+	border-radius:10px;
+}
+
+@-webkit-keyframes animacion{
+	0%{
+		margin-top:150%;
+	}
+	60%{
+		margin-top:-5%;
+	}
+	100%{
+		margin-top:0%;
+	}
+}
+
+@media (min-width:421px) and (max-width:768px){
+	.retrato_arriba{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.retrato_abajo{
+		display:flex;
+		flex-direction: column;
+	}
+
+header nav{
+		margin: auto;
+}
+
+header{
+		display:flex;
+		flex-direction: column;
+}
+
+.pie_pagina{
+		display:flex;
+		flex-direction: column;
+	}
+
+#Contacto, #Terminos, #Redes_Sociales, #Derechos{
+margin-left: 50px;
+}

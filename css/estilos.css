@@ -1,0 +1,172 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+}
+
+header{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	display:flex;
+	flex-direction:row;
+	text-shadow:2px 2px #02010a;
+	}
+
+header a, header a:visited, header a:link{
+	color: white;
+}
+
+.titulo, .menu{
+	margin:auto;
+}
+
+.titulo{
+	margin: auto;
+}
+
+.menu{
+	margin: auto;
+}
+
+.selection{
+	text-decoration:none;
+}
+
+.contenido{
+	animation: animacion 1s;
+}
+
+.contenido{
+	text-align:center;
+	max-width:900px;
+	margin:0 auto;
+}
+
+.subrayado_actual{
+	text-decoration:none;
+}
+
+#Fotografia{
+	background-color: #82c3a6;
+	width:100%;
+}
+
+#Fotografia img{
+	margin:10px auto;
+	width:80%;
+	border: 1px solid black;
+}
+
+.contenedor2 {
+	background-color: #d5c75f;
+}
+
+.contenedor2 {
+	text-align:center;
+	padding:30px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.contenedor2 img{
+	width:100%;
+	border: 1px solid black;
+}
+
+#Paisajes img{
+	transition: 1s;
+}
+
+#Paisajes img:hover{
+	transform:rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+#Paisajes{
+	text-decoration:underline;
+	color:black;
+}
+
+#Retratos img{
+	transition: 1s;
+}
+
+#Retratos img:hover{
+	transform:translate(20px, -5px);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+#Retratos{
+	text-decoration:underline;
+	color:black;
+}
+
+footer{
+			background-color: #C6d5c5;
+			border-radius: 0px 0px 10px 10px;
+			text-align: center;
+	}
+
+.pie_pagina{
+	margin: 0 auto;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	color:black;
+	font-family: 'Dancing Script', cursive;
+	align-items: flex-start;
+	text-align:left;
+}
+
+#Contacto img{
+	height:15px;
+	border-radius:10px;
+}
+
+#Redes_Sociales img{
+	height:15px;
+	border-radius:10px;
+}
+
+#Derechos img{
+	height:15px;
+	border-radius:10px;
+}
+
+@-webkit-keyframes animacion{
+	0%{
+		margin-top:150%;
+	}
+	60%{
+		margin-top:-5%;
+	}
+	100%{
+		margin-top:0%;
+	}
+}
+
+	@media (min-width:421px) and (max-width:768px){
+		.contenedor2{
+			display:flex;
+			flex-direction: column;
+		}
+
+	header nav{
+			margin: auto;
+	}
+
+	header{
+			display:flex;
+			flex-direction: column;
+	}
+
+	.pie_pagina{
+			display:flex;
+			flex-direction: column;
+		}
+
+#Contacto, #Terminos, #Redes_Sociales, #Derechos{
+	margin-left: 50px;
+}
